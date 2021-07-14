@@ -2,6 +2,96 @@
 *****************import font form google**************************
 **************************************************************** */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* **************************************************************
+*****************General style here******************************
+**************************************************************** */
+*{
+    margin:0;
+    padding: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width:100%;
+}
+.container{
+    width:1160px;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* **************************************************************
+*****************Header area style here**************************
+**************************************************************** */
+.header-area{
+     background: #2D25A0; 
+     padding-top:52px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    display:flex;
+}
+.menu>li{
+    margin-right:36px;
+    color:white;
+}
+.menu> li a{
+    color:#fff;
+    transition: all .5s ease;
+}
+.menu> li a:hover{
+   border-bottom:3px solid #E02C6D;
+}
+.login-btn a{
+    color:#fff;
+    background: #E02C6D;
+    padding:10px 24px;
+    transition: all .5s ease;
+}
+.login-btn a:hover{
+    background: #000;
+}
+.hero-area{
+    display: flex;
+    margin-top:60px;
+    justify-content: space-between;
+}
+.title-btn{
+    width:485px;
+}
+.title-btn h1{
+    color:#fff;
+    font-size: 64px;
+}
+.title-btn a{
+    color:#fff;
+    background: #E02C6D;
+    padding:10px 24px;
+    display: inline-block;
+    margin-top: 27px;
+    transition: all .5s ease;
+}
+.title-btn a:hover{
+    background: #000;
+}
+.title-btn a i{
+    margin-left: 5px;
+}
+.player-banner{
+    width:556px;
 }
