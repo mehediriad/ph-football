@@ -220,6 +220,29 @@ img{
 
 
 /* **************************************************************
+*****************Partners area style here**************************
+**************************************************************** */
+.partners-area{
+    margin-top:160px;
+}
+.partners-box{
+    margin:0 10%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+}
+.single-partner{
+   text-align: center;
+}
+.single-partner img{
+    width:90%;
+}
+.single-partner p{
+    font-size: 14px;
+    color:#8C8F96;
+    margin-top:-10px;
+}
+/* **************************************************************
 *****************Footer area style here**************************
 **************************************************************** */
 .footer-area{
