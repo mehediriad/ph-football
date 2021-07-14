@@ -1,0 +1,129 @@
+/* **************************************************************
+************ Mobile Responsive (Max-width 360px ******************
+**************************************************************** */
+@media only screen and (max-width: 360px) {
+    body{
+        
+    }
+    .container{
+        width:360px;
+    }
+    .header-area{ 
+        padding-top:33px;
+   }
+    .navbar{
+        margin:0 16px;
+        align-items: center;
+    }
+    
+    .menu{
+        display: none;
+    }
+    .mobile-menu-btn{
+        display:block;
+        width:24;
+        height: 24px;
+        color:white;
+        font-size:20px;
+        cursor: pointer;
+    }
+    .login-btn a{
+        padding:7px 17px;
+        font-size: 12px;
+    }
+    .hero-area{
+        flex-direction: column;
+        margin: 46px 70px 30px 16px;
+        padding-bottom: 65px;
+    }
+    .title-btn{
+        width:278px;
+    }
+    .title-btn h1{
+        font-size: 36px;
+    }
+    .title-btn a{
+        font-size: 16px;
+        padding: 10px 25px;
+        margin-bottom: 50px;
+    }
+    .player-banner{
+        width:329px;
+    }
+
+
+
+
+
+    .article-box{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top:43px;
+        grid-gap: 24px;
+        padding:0 15px;
+    }
+
+
+
+    .highlights-box{
+        flex-direction: column;
+        margin-top: 60px;
+        padding:0 16px;
+    }
+    .highlights-details h1{
+        font-size: 30px;
+    }
+    .highlights-details a{
+        padding:10px 24px;
+        font-size: 16px;
+        margin-top: 33px;
+        margin-bottom: 29px; 
+    }
+
+    .contact-box{
+        margin-top:40px;
+        flex-direction: column;
+        padding:0 16px;
+    }
+    .contact-map{
+        display: none;
+    }
+    .contact-form{
+        width:100%;
+        margin-left:0;
+        
+    }
+    .contact-form form input,
+    .contact-form textarea{
+    padding:7px 10px;
+    margin-bottom: 7px; 
+    font-size: 14px;
+    }
+
+
+    .partners-area{
+        margin-top:50px;
+    }
+    .partners-box{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
+    }
+    .single-partner img{
+        width:95%;
+    }
+    .single-partner p{
+        font-size: 10px;
+    }
+
+    .footer-area{
+        margin-top:40px;   
+    }
+    .club-logo{
+        width:260px;
+    }
+    .copyright-text p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    } 
+    
+
+  }

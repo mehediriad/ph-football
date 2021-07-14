@@ -39,6 +39,9 @@ img{
      background: #2D25A0; 
      padding-top:52px;
 }
+.mobile-menu-btn{
+    disply:none;
+}
 .navbar{
     display:flex;
     justify-content: space-between;
