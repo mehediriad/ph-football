@@ -1,9 +1,10 @@
+
 /* **************************************************************
 ************ Mobile Responsive (Max-width 360px ******************
 **************************************************************** */
 @media only screen and (max-width: 360px) {
     .container{
-        width:360px;
+        width:100%;
     }
     .header-area{ 
         padding-top:33px;
@@ -34,7 +35,7 @@
         padding-bottom: 65px;
     }
     .title-btn{
-        width:278px;
+        width:95%;
     }
     .title-btn h1{
         font-size: 36px;
@@ -45,7 +46,7 @@
         margin-bottom: 50px;
     }
     .player-banner{
-        width:329px;
+        width:98%;
     }
 
 
@@ -129,15 +130,15 @@
   /* **************************************************************
 ************ Mobile Responsive (Max-width 720px ******************
 **************************************************************** */
-@media only screen and (max-width: 720px) {
+@media only screen and (min-width: 361px) and (max-width: 720px) {
     .container{
-        width:720px;
+        width:100%;
     }
     .header-area{ 
         padding-top:33px;
    }
     .navbar{
-        margin:0 16px;
+        margin:0 20px;
         align-items: center;
     }
     
@@ -146,8 +147,8 @@
     }
     .mobile-menu-btn{
         display:block;
-        width:24;
-        height: 24px;
+        width:26;
+        height: 26px;
         color:white;
         font-size:20px;
         cursor: pointer;
@@ -162,7 +163,7 @@
         padding-bottom: 65px;
     }
     .title-btn{
-        width:278px;
+        width:60%;
     }
     .title-btn h1{
         font-size: 36px;
@@ -173,7 +174,7 @@
         margin-bottom: 50px;
     }
     .player-banner{
-        width:329px;
+        width:80%;
     }
 
 
@@ -252,3 +253,5 @@
     
 
   }
+
+
