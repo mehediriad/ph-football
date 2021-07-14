@@ -109,6 +109,7 @@ img{
     grid-template-columns: repeat(3, 1fr);
     margin-top:70px;
     grid-gap: 30px;
+    padding:0 45px;
 }
 .blog{
     padding:15px;
@@ -126,4 +127,41 @@ img{
     font-weight: 400;
     margin-top:10px;
     
+}
+/* **************************************************************
+*****************Highlights area style here**************************
+**************************************************************** */
+.highlights-box{
+    display: flex;
+    margin-top: 165px;
+    justify-content: space-between;
+}
+.highlights-details{
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlights-details h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.highlights-details p{
+    font-weight: 400;
+    line-height: 28px;
+    color:#6C6C6C;
+}
+.highlights-details a{
+    color:#fff;
+    background: #E02C6D;
+    padding:10px 24px;
+    display: inline-block;
+    margin-top: 24px;
+    transition: all .5s ease;
+}
+.highlights-details a i{
+    margin-left: 5px;
+}
+.highlights-details a:hover{
+    background: #000;
 }
