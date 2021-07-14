@@ -165,3 +165,55 @@ img{
 .highlights-details a:hover{
     background: #000;
 }
+
+/* **************************************************************
+*****************Footer area style here**************************
+**************************************************************** */
+.footer-area{
+    margin-top:160px;   
+}
+.footer-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.club-logo{
+    width:480px;
+}
+
+.social-menu{
+    display: flex;
+    margin-top: 20px;
+}
+.social-menu li{
+    margin-right: 14px;
+    width:32px;
+    height: 32px;
+    background: #E7E7E8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-menu li a{
+    color:#969BAB;
+    transition: all .5s ease;
+}
+.copyright-text p{
+    font-size: 18px;
+    margin-top:20px;
+    margin-bottom: 63px;
+} 
+.social-menu .youtube:hover a{
+    color:#FF0101;
+}
+.social-menu .twitter:hover a{
+    color:#5DA9DD;
+}
+.social-menu .dribbble:hover a{
+    color:#D93A77;
+}
+.social-menu .instagram:hover a{
+    color:#495EC1;
+}
