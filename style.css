@@ -167,6 +167,59 @@ img{
 }
 
 /* **************************************************************
+*****************Contact area style here**************************
+**************************************************************** */
+.contact-box{
+    margin-top:160px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.contact-form{
+    width:45%;
+    margin-left: 10%;
+    
+}
+
+.contact-form h3{
+    margin-bottom: 20px;
+}
+.contact-form form input,
+.contact-form textarea{
+    box-sizing: border-box;
+    width:100%;
+    padding:10px 20px;
+    margin-bottom: 10px; 
+    font-size: 18px;
+    border:none;
+    background: #E7E7E8;
+    outline-color: #E02C6D;
+    
+}
+.contact-form input[type="submit"]{
+    width:100%;
+    color:#000;
+    font-weight: 700;
+    border:2px solid #E02C6D;
+    color:#E02C6D;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.contact-form input[type="submit"]:hover{
+    color:#000;
+    border-color: #000;
+}
+.contact-map{
+  width:45%;
+}
+.contact-map iframe{
+  width:100%;
+}
+
+
+
+/* **************************************************************
 *****************Footer area style here**************************
 **************************************************************** */
 .footer-area{
